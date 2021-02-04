@@ -13,4 +13,4 @@ jobs:
         CLOUDFLARE_ZONE: ${{ secrets.CLOUDFLARE_ZONE }}
 
         CLOUDFLARE_TOKEN: ${{ secrets.CLOUDFLARE_TOKEN }}
-        PURGE_URLS: '["https://xxx.jerma.io/chat", "https://xxx.jerma.io/chat/styles.css"]'
+        PURGE_URLS: '["https://xxx.jerma.io", "https://xxx.jerma.io/styles.css"]'
